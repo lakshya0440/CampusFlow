@@ -1,0 +1,1 @@
+package com.campusflow.dto; import com.campusflow.model.Role; public record LoginResponse(String token,String id,String name,String email,Role role,String studentId,String employeeId,String department,String year,String designation){}

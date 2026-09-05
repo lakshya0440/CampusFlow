@@ -1,0 +1,1 @@
+package com.campusflow.controller; import org.springframework.web.bind.annotation.*; @RestController public class HealthController{@GetMapping("/")public String health(){return "CampusFlow Backend is running!";}}

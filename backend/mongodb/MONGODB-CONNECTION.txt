@@ -1,0 +1,26 @@
+CampusFlow MongoDB Connection
+
+Compass connection name:
+CampusFlow Local
+
+Connection URI:
+mongodb://localhost:27017
+
+CampusFlow database:
+campusflow
+
+Spring Boot database URI:
+mongodb://localhost:27017/campusflow
+
+Collections:
+users
+courses
+assignments
+notices
+events
+timetable
+campus_requests
+
+Important:
+The connection name "CampusFlow Local" is a MongoDB Compass label. It is not a database name.
+The backend automatically creates the database/collections on startup and seeds the default admin and sample campus data.

@@ -1,0 +1,28 @@
+CAMPUSFLOW MONGODB QUICK SETUP
+
+1. Open MongoDB Compass.
+2. Create a new connection.
+3. Connection name/label: CampusFlow Local
+4. URI: mongodb://localhost:27017
+5. Connect.
+6. Start the CampusFlow backend:
+   mvn clean spring-boot:run
+
+The backend creates the campusflow database and required collections automatically.
+No manual database creation is required.
+
+Database:
+campusflow
+
+Collections:
+users
+courses
+assignments
+notices
+events
+timetable
+campus_requests
+
+All registrations are stored in users.
+The default Admin account is stored in users.
+All service requests are stored in campus_requests.
